@@ -18,10 +18,10 @@ app.get('/download', (req, res) => {
         res.send('no id found')
         return
     }
-
+    // /usr/local/bin/ffmpeg
 
     let YD = new YoutubeMp3Downloader({
-        "ffmpegPath": "/usr/local/bin/ffmpeg",        // Where is the FFmpeg binary located?
+        "ffmpegPath": "/usr/bin/ffmpeg",        // Where is the FFmpeg binary located?
         "outputPath": __dirname+"/here",    // Where should the downloaded and encoded files be stored?
         "youtubeVideoQuality": "highest",       // What video quality should be used?
         "queueParallelism": 2,                  // How many parallel downloads/encodes should be started?
