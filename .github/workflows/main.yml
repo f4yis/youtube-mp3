@@ -36,4 +36,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: cd /home/fayis/app && forever start app.js
+        script: cd /home/fayis/app && npm install && forever start app.js
