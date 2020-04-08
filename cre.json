@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "paper-inv",
+  "private_key_id": "3b5243a81cef4fb751ce2abaed7d555e99edc17c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDQhOdKr5/lsp0j\nyiKzf3b3Lk6r6liF9PP57+nBmh8NUDF2p6C/KHm5p22yzW+aEvVoUsdtuBbH3+I6\nYN0YihBKz/Pc4rEEFZoFu99HMcgYc9kumh4dsBbrYIbAp9rNXmuybFWPpd9Aku5V\n3IXrFBejJFrM0FUxMT/1liqciDSFgJvvQYhlhlEBdye9sDBTtJJK51gYW6O2TXeh\nOO2OlRhwON2VL1/5DR7gvL/vUx4VJvphERcKzctRhI3LBvQf335+L0KvL7qzvuuV\nDBs32UksUIcMk0Fz/uOd5ptuq5xVqp0Np/Wdt7SpnghZuUBJ4Yy+e/Qd8ld+1uIy\nCzIC7REzAgMBAAECggEAUMe8Bs4E5uqMP+o2CU3PG7E/3w/5XWPpBKGx8EOx1emE\nUBBekM+wYIEBWWyG2KyRj+nJwrK3eJU+Qhl2beRGrYTkV2Um6Isp0SDYPe+GMhrn\nP0uLcTrfli4d5hLhDACRPl0DxJOg6pZBaNf2tXxiL9yMpJ3s8xK+UXjsZxnJJxJZ\neP+ScH4jW1NTAV7k6qDQLOXQ2TE6iFtQKQ0dsudBkEEWWaNAZ4S0FMljSaExQlog\nrz5Ani077IhavRNoOJaSvViwHnOSCkIGjFvfx9YYgE3nUYlpmfVbCcByXPthXUeM\nU9TqRrGhg9iXrf5FWTeIi65BP/JMNNDfnfW6XhDUUQKBgQD1+CtwcHWU0ueqqWaX\nNsEKRnoyGp/iRWj+tLDkzjULvvL9cpG/Pa2Sl0OQbXN131PWQqdNb8/XOo4K8jLl\n3TS1LpK/3bRIDNiqTGqmiD1n/dbyX873QZzpcreavKGUQo/Ivzn1vkmowYuudpm1\nR6GNJ64ktdivvLn65Jhl4S8MaQKBgQDZBcRQrydDI7wFt+/01Xb8nHWkFI+Qa81T\nj/c2ieWI/esNBynX1qMJy+yD8W2mBEhWMBHDbiTSpXmJ0fXUxD9JfP26RiMGLftu\ndlVJXzKHJTwWczmlTdRR1xh+/fzcCPjfleVz9qmLeSLh0l2XS5DBouVGNr97BLNw\noESAptjtOwKBgQCvMGEQJqk4pLbocNtnHFKF1Qi3owr5iGJt95h+fvh9MzWymuWA\nBpgX7rDqr2orLDN0SekLWHX6X/RHi5YA7nraCR/wlCIRp0SyltbnYeYKqVttKhwp\nM4xlIZXwGiYjiP0MCFdp1mx0S9YHHuX/ndNMzFRWRUbedFcqgaKh/a8a8QKBgQDD\ndjA0QyzniX3E4L+cEc6TAg/qciJDfvR1OIr9cgFr+tYC69rB7Sz2m9Yvl/ibt+u2\nxKCbFc7Qcf0fJh11PjOJ6qtTY+wTmsKD4Mw7wyPtGJof1jOrMIf0FfiYGAXv35zX\nM1hvs09MsRO7tA5bP9HmtOIu9QxMrhU3cQGBpcRnFQKBgQCtb98Ld8wRtqxHUNPw\ntbDxqGEgRcZJgPmZg3JaQ+8Xdy2djoznXa248041oj5LcgLFNkueG6V/V4gpNM2H\nM3SKqllY+YwPu635viVaTz2UeJ57fzMwViUpJhYk2kvLzTnZeaVeUU/YvHjx4/8V\n2V/FEgN+vQevP16xSwexgJO4lw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "youtubemp3@paper-inv.iam.gserviceaccount.com",
+  "client_id": "117588198001324703056",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/youtubemp3%40paper-inv.iam.gserviceaccount.com"
+}
