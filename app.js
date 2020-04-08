@@ -1,7 +1,9 @@
 let express  = require('express')
 let YoutubeMp3Downloader = require("youtube-mp3-downloader");
+let morgan = require('morgan')
 let app = express()
 
+app.use(morgan('dev'))
 
 function extractVideoID(url){
     let regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
