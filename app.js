@@ -1,9 +1,13 @@
-let express  = require('express')
-let YoutubeMp3Downloader = require("youtube-mp3-downloader");
-let morgan = require('morgan')
-let app = express()
+const express  = require('express')
+const YoutubeMp3Downloader = require("youtube-mp3-downloader");
+const morgan = require('morgan')
+const bodyParser = require('body-parser')
+const cors = require('cors')
+const app = express()
 console.log('asdASDSasfffdffffas')
 
+app.use(cors())
+app.use(bodyParser.json())
 app.use(morgan('dev'))
 
 function extractVideoID(url){
@@ -15,6 +19,8 @@ function extractVideoID(url){
         return null
     }
 }
+
+
 app.get('/download', (req, res) => {
     let id = extractVideoID(req.query.url)
     if(!id) {
