@@ -10,6 +10,11 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use(morgan('dev'))
 
+app.post('/test', (req, res) => {
+    console.log(req.body)
+    res.json({})
+})
+
 function extractVideoID(url){
     let regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
     let match = url.match(regExp);
